@@ -1,3 +1,4 @@
+//calculate conditional wage  ,assume 20 days and 160 hrs.
 function conditionWage() {
     let totalWage = 0;
     let wagePerHour = 20;
@@ -6,7 +7,7 @@ function conditionWage() {
     let hours = 0;
 
 
-
+//use while loop
     while (day < 20 && hours <= 160) {
         
         
