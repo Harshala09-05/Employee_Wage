@@ -1,3 +1,4 @@
+//calculate monthly wage.
 const days = 20;
 function calculateWage(wagePerHour, fullDayHour) {
   const dailyWage = wagePerHour * fullDayHour;
