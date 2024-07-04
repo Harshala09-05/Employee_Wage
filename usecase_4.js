@@ -1,3 +1,4 @@
+// calculate wage of employee based on its type:fulltime/Parttime.
 function calculateWedge(wagePerHour, fullDayHour) {
   const dailyWage = wagePerHour * fullDayHour;
   console.log(" wage of employee is: " + dailyWage);
@@ -7,7 +8,7 @@ function partTimeWege(wagePerHour, fullDayHour, partTimeHour) {
   const totalWedge = wagePerHour * (fullDayHour + partTimeHour);
   console.log("wage of employee: " + totalWedge);
 }
-
+//switch case
 let wage;
 let type = "partTime";
 switch (type) {
