@@ -1,4 +1,4 @@
-
+//calculate employee wage 
 function calculateWedge(wagePerHour, fullDayHour) {
     
    const dailyWage = wagePerHour * fullDayHour;
